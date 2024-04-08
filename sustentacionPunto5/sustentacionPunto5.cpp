@@ -17,7 +17,6 @@ struct game
 //Creación lista para VideoJuegos.
 vector<game> videojuegos;
 
-
 //Crear función para Agregar un nuevo VideoJuego.
 void agregarVideojuego() {
     game nuevoJuego;
@@ -60,6 +59,7 @@ cout<<"4) Consultar videojuegos por plataforma."<<endl;
 cout<<"5) Salir del Programa."<<endl;
 cout<<"Ingrese su opción: ";
 cin>>opcion;
+//Se agrega el Switch para que el Programa pueda ejecutar la opcion le dio el Usuario.
 switch (opcion)
 {
 case 1:
